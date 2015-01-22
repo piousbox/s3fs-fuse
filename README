@@ -1,5 +1,20 @@
 THIS README CONTAINS OUTDATED INFORMATION - please refer to the wiki or --help
 
+ sudo apt-get install libselinux1=2.2.2-1
+ sudo apt-get install libselinux-dev libfuse2 libfuse-dev
+ sudo apt-get install libfuse-dev libcurl4-openssl-dev libxml++2.6-dev libssl-dev
+ ./configure --prefix=/usr
+
+
+
+
+
+
+
+
+
+
+
 S3FS-Fuse
 
 S3FS is FUSE (File System in User Space) based solution to mount/unmount an Amazon S3 storage buckets and use system commands with S3 just like it was another Hard Disk.
